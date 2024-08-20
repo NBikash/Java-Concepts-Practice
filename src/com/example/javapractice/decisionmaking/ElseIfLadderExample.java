@@ -5,7 +5,7 @@ package com.example.javapractice.decisionmaking;
 //41kg to 50kg (Category A),51kg to 60kg(Category B),61kg to 70kg(Category C),71kg to 80kg(Category D), >81(Category E), <40(not eligible)
 public class ElseIfLadderExample {
 	public static void main(String[] args) {
-		double weight=65;
+		double weight=65;		
 		if(weight>=41 && weight<=50) {
 			System.out.println("Category A");
 		}
